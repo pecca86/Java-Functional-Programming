@@ -63,10 +63,6 @@ public class Main {
         }
     }
 
-    public static void printWarnings(String warning) {
-        System.out.println(warning);
-    }
-
     public static Function<String, String> upFun() {
         return d -> d.toLowerCase() + "nekke";
     }
